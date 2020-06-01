@@ -1,0 +1,28 @@
+{
+  "name": "borschphp/smarty",
+  "description": "A smarty template engine wrapper for Borsch Framework applications.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandre DEBUSSCHÈRE",
+      "email": "zizilex@gmail.com"
+    }
+  ],
+  "require": {
+    "borschphp/template": "0.1",
+    "smarty/smarty": "v3.1.36"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Borsch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BorschTest\\": "tests/"
+    }
+  }
+}
