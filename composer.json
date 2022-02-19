@@ -9,8 +9,8 @@
     }
   ],
   "require": {
-    "borschphp/template": "0.1",
-    "smarty/smarty": "v3.1.36"
+    "borschphp/template": "^0",
+    "smarty/smarty": "^v4"
   },
   "require-dev": {
     "phpunit/phpunit": "^8"
